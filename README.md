@@ -19,7 +19,7 @@ The spectral signatures estimated of Ba133 by SemSun-j are shown in the figure b
 
 The code is organized as follows:
 -  The Code folder contains the source code for the IAE and the hybrid spectral unmixing
--  The Data folder contains the dataset of 96 spectral signatures of 4 radionuclides: $'^{57}'$Co, $'^{60}'$Co, $'^{133}'$Ba and $'^{137}'$Cs as a function of steel thickness.
+-  The Data folder contains the dataset of 96 spectral signatures of 4 radionuclides: <sup>57</sup>Co, <sup>60</sup>Co,<sup>133</sup>Ba and <sup>137</sup>Cs as a function of steel thickness.
 -  The Notebooks folder contains two jupyter notebook files for training an IAE model and using SemSun to estimate the spectral signature and counting
   - The Models folder contains the pre-trained IAE model.
   - The Data folder contains the results of the evaluation of 1000 Monte Carlo simulations for the hybrid algorithm.
