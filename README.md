@@ -1,9 +1,8 @@
 # Semi-blind Spectral unmixing based on manifold learning (SemSun)
 This is the code for spectral unmixing in gamma-ray spectrometry with spectral deformation.
 The gamma-spectrum can be deformed by physical phenomena such as attenuation, the Compton scattering and fluorescence. The database used in this article contains different characteristic spectra for each radionuclide (called spectral signatures) based on different thicknesses of a steel sphere.
-As the thickness varies, the spectral signatures of all radionuclides are deformed. For example, the figure below shows the spectral signature of $'^{133}'$Ba as a function of thickness.
+As the thickness varies, the spectral signatures of all radionuclides are deformed. For example, the figure below shows the spectral signature of $^{133}$Ba as a function of thickness.
 ![ ](illustrations/spectre_Ba133.png)
-This sentence uses `$` delimiters to show math inline:  $\sqrt{3x-1}+(1+x)^2$
 
 The main idea behind this algorithm is to use a particular machine learning model, called IAE, to model spectral deformation. The key to this method is to use nonlinear interpolation of predefined points (called anchor points) to describe the spectral signature.
 ![ ](illustrations/iae_schema.PNG)
