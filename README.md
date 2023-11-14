@@ -13,7 +13,7 @@ The notebook file Evaluation_unmixing_gamma_spectrometry.ipynb explains how to u
 
 For example, the figure below shows a simulated gamma spectrum of the mixture of 4 radionuclides and the natural background (Bkg) in the case where the total counting is 2500 over the full spectrum.
 ![ ](illustrations/spectre_sim_faible_stat_exp1.png)
-The spectral signatures estimated of Ba133 by SemSun-j are shown in the figure below:
+The spectral signatures estimated of <sup>133</sup>Ba by SemSun-j are shown in the figure below:
 ![ ](illustrations/spectre_Ba133_cnn_joint_fbl_stat_exp1.png)
 
 
