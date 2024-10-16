@@ -280,7 +280,7 @@ class IAE(pl.LightningModule):
             Nch_out = self.nsize_fnum[r]
             kern_size = self.nsize_fsize[r]
             stride = self.nsize_fstride[r]
-            Lout = np.int(np.floor(1+1/stride*(Lin-kern_size)))
+            Lout = np.int_(np.floor(1+1/stride*(Lin-kern_size)))
             dim.append(Lout)
             Lin = Lout
 
