@@ -1,6 +1,6 @@
 # Semi-blind Spectral unmixing based on manifold learning (SemSun)
 This is the code for spectral unmixing in gamma-ray spectrometry with spectral deformation.
-The gamma-spectrum can be deformed by physical phenomena such as attenuation, the Compton scattering and fluorescence. The database used in this article contains different characteristic spectra for each radionuclide (called spectral signatures) based on different thicknesses of a steel sphere.
+The gamma-ray spectrum can be deformed by physical phenomena such as attenuation, the Compton scattering and fluorescence. The database used in this article contains different characteristic spectra for each radionuclide (called spectral signatures) based on different thicknesses of a steel sphere.
 As the thickness varies, the spectral signatures of all radionuclides are deformed. For example, the figure below shows the spectral signature of <sup>133</sup>Ba as a function of thickness.
 ![ ](illustrations/spectre_Ba133.png)
 
